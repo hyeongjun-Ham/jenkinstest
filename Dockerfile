@@ -1,5 +1,5 @@
 FROM openjdk:11-jre
-COPY build/libs/jenkinstest-*.jar app.jar
+COPY build/libs/jenkinstest-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
 
 
