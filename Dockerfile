@@ -3,5 +3,7 @@ COPY build/libs/jenkinstest-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
 
 
+#Test
+
 #ARG JAR_FILE=./build/libs/JenkinsTest-0.0.1-SNAPSHOT.jar
 #COPY ${JAR_FILE} app.jar
